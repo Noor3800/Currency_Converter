@@ -41,9 +41,9 @@ pip install requests
 2. Run the cells one by one.
 
 3. You will be prompted to enter:
-   - **From Currency** (e.g., USD)
-   - **To Currency** (e.g., PKR)
-   - **Amount**
+   - From Currency (e.g., USD)
+   - To Currency (e.g., PKR)
+   - Amount
 
 4. The converted result will be displayed as output in the notebook.
 
@@ -86,17 +86,17 @@ This project uses ExchangeRatesAPI.io to fetch live exchange rates.
 - API Endpoint:
     http://api.exchangeratesapi.io/v1/latest
 - You need a valid access key (a free key is available upon signup).
-- You can also use the following API:
-  
-  ```bash
-    url = "http://api.exchangeratesapi.io/v1/latest?access_key=6a69e76931468c0c738b0052ead8c4bd"
-  ```
 - Replace the access_key in the code with your own:
 
 ```bash
 url = "http://api.exchangeratesapi.io/v1/latest?access_key=YOUR_ACCESS_KEY"
 
 ```
+- You can also use the following API:
+  
+  ```bash
+    url = "http://api.exchangeratesapi.io/v1/latest?access_key=6a69e76931468c0c738b0052ead8c4bd"
+  ```
 
 ## 📌 Notes
 
