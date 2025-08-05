@@ -36,7 +36,7 @@ pip install requests
 ### ▶ CLI Version (Jupyter Notebook)
 
 1. Open the Jupyter Notebook file:  
-   **`currency_converter_cli.ipynb`**
+   **`CurrConverter.ipynb`**
 
 2. Run the cells one by one.
 
@@ -86,6 +86,11 @@ This project uses ExchangeRatesAPI.io to fetch live exchange rates.
 - API Endpoint:
     http://api.exchangeratesapi.io/v1/latest
 - You need a valid access key (a free key is available upon signup).
+- You can also use the following API:
+  
+  ```bash
+    url = "http://api.exchangeratesapi.io/v1/latest?access_key=6a69e76931468c0c738b0052ead8c4bd"
+  ```
 - Replace the access_key in the code with your own:
 
 ```bash
