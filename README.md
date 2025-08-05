@@ -88,10 +88,10 @@ This project uses ExchangeRatesAPI.io to fetch live exchange rates.
 - You need a valid access key (a free key is available upon signup).
 - Replace the access_key in the code with your own:
 
-```bash
-url = "http://api.exchangeratesapi.io/v1/latest?access_key=YOUR_ACCESS_KEY"
+  ```bash
+    url = "http://api.exchangeratesapi.io/v1/latest?access_key=YOUR_ACCESS_KEY"
 
-```
+  ```
 - You can also use the following API:
   
   ```bash
